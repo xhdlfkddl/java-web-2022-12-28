@@ -1,0 +1,33 @@
+package chapter01;
+
+public class Test01 {
+	public static int solution(int n) {
+		int answer = 0;
+		int count = 0;
+		int[] arr1;
+		int leng;
+		
+		for (int i = 1; i <= n; i++) {
+			int a = n%i;
+			if (a == 0) {
+				count += 1;
+				arr1 = new int[count];
+//				System.out.println(arr1.length);
+				leng = arr1.length-1;
+
+				for (int j = 0; j < leng; j++) {
+					arr1[j] = i;
+				}
+				for (int j = 0; j < arr1.length; j++) {
+					answer += arr1[j];
+					System.out.println(answer);
+				}
+			}
+			
+		}
+		return answer;
+	}
+	public static void main(String[] args) {
+		solution(5);
+	}
+}

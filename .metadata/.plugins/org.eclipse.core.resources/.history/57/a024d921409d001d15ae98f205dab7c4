@@ -1,0 +1,13 @@
+package chapter01;
+
+public class Test04 {
+	public static int[] solution(long n) {
+        int[] answer = {};
+        
+        return answer;
+    }
+	
+	public static void main(String[] args) {
+		System.out.println(solution(8));
+	}
+}

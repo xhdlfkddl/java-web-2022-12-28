@@ -1,0 +1,23 @@
+package chapter01;
+
+public class Test04 {
+	public static int[] solution(long n) {
+        long num = n;
+        int cnt = 0;
+        
+        while (num != 0) {
+        	num /= 10;
+        	cnt++;
+		}
+        System.out.println(num);
+        System.out.println(cnt);
+        
+		int[] answer = {};
+        
+        return answer;
+    }
+	
+	public static void main(String[] args) {
+		System.out.println(solution(12));
+	}
+}

@@ -1,0 +1,12 @@
+package chapter01;
+
+public class Test01 {
+	public static int solution(int n) {
+		
+		
+		return answer;
+	}
+	public static void main(String[] args) {
+		solution(5);
+	}
+}

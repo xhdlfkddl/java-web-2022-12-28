@@ -1,0 +1,12 @@
+package chapter01;
+
+public class Test02 {
+	public double solution(int[] arr) {
+        double answer = 0;
+        return answer;
+    }
+	
+	public static void main(String[] args) {
+//		System.out.println(solution(-1));
+	}
+}

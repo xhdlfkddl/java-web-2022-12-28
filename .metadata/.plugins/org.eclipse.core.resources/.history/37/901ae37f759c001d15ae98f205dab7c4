@@ -1,0 +1,29 @@
+package chapter01;
+
+public class Test01 {
+	public static int solution(int n) {
+		int answer = 0;
+		int count = 0;
+		
+		for (int i = 1; i <= n; i++) {
+			int a = n%i;
+			if (a == 0) {
+				count += 1;
+				int[] arr1 = new int[count];
+				System.out.println(i);
+				int leng = arr1.length;
+				System.out.println(leng);
+				for (int j = 0; j < leng; j++) {
+					arr1[j] = i; // 0번째 자리가 1
+					answer += arr1[j];
+//					System.out.println(answer);
+				}
+			}
+			
+		}
+		return answer;
+	}
+	public static void main(String[] args) {
+		solution(5);
+	}
+}

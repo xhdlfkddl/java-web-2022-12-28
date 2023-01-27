@@ -1,0 +1,21 @@
+package chapter01;
+
+public class Test01 {
+	public int 	solution(int n) {
+		int answer = 0;
+		for (int i = 0; i <= n; i++) {
+			int a = n%i;
+			int[] arr1 = new int[n];
+			if (a == 0) {
+				for (int j = 0; j < arr1.length; j++) {
+					arr1[j] = i;
+				}
+			}
+			
+		}
+		return answer;
+	}
+	public static void main(String[] args) {
+		
+	}
+}
